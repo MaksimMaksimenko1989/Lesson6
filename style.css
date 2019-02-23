@@ -1,23 +1,71 @@
-
 body{
-    width: 100%;
-    height: 300px;
+    width: 1070px;
+    height: 370px;
     border: 1px solid black;
 
 }
 table { 
     height: 300px;
-    width: 100%; /* Ширина таблицы */
-    border: 4px double black; /* Рамка вокруг таблицы */
-    border-collapse: collapse; /* Отображать только одинарные линии */
+    border: 4px double black; 
+    border-collapse: collapse; 
    }
    th { 
-    text-align: left; /* Выравнивание по левому краю */
-    background: #ccc; /* Цвет фона ячеек */
-    padding: 5px; /* Поля вокруг содержимого ячеек */
-    border: 1px solid black; /* Граница вокруг ячеек */
+    text-align: left; 
+    background: #ccc; 
+    padding: 5px; 
+    border: 1px solid black; 
    }
    td { 
-    padding: 5px; /* Поля вокруг содержимого ячеек */
-    border: 1px solid black; /* Граница вокруг ячеек */
+    padding: 5px; 
+    border: 1px solid black; 
    }
+   .coln {
+       background-color: bisque;
+    text-align: center;
+    width: 80px;
+    padding: 5px
+    
+}
+.lineright {
+    vertical-align: bottom;
+    text-align: center;
+    width: 80px;
+}
+.lineleft {
+    border-right-color:transparent;
+    vertical-align: top;
+    padding-left: 10px; 
+    width: 140px;
+}
+.cell {
+    border-bottom-color:transparent;
+    width: 200px;
+    height: 30px;
+    vertical-align: top;
+}
+.numb {
+    border-bottom-color:transparent;
+    text-align: right;
+    padding-right: 14px;
+    vertical-align: top;
+}
+.proc {
+    text-align: right;
+    padding-right: 15;
+}
+.cell-2 {
+    border-right-color:transparent;
+    vertical-align: top;
+    padding-left: 10px; 
+    width: 150px;
+}
+.cell-3 {
+    border-right-color:transparent;
+}
+.color{
+    background-color: aqua;
+}
+
+
+
+   
