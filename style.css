@@ -15,7 +15,7 @@ table {
     padding: 5px; 
     border: 1px solid black; 
    }
-   td { 
+   td { background-color: coral;
     padding: 5px; 
     border: 1px solid black; 
    }
@@ -44,6 +44,7 @@ table {
     vertical-align: top;
 }
 .numb {
+    background-color: blueviolet;
     border-bottom-color:transparent;
     text-align: right;
     padding-right: 14px;
@@ -62,9 +63,7 @@ table {
 .cell-3 {
     border-right-color:transparent;
 }
-.color{
-    background-color: aqua;
-}
+
 
 
 
